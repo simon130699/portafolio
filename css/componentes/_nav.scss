@@ -1,0 +1,42 @@
+nav{
+
+   padding:25px 15%;
+   width:100%;
+   position: fixed;
+   top:0;
+   z-index: 1;
+   background-color:$colorprimario ;
+  .nombre{
+    color: $colorsdetails;
+    text-decoration: none;
+    font-family: $fontf;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  span{
+    color: $colortexto;
+  }
+  a{
+     font-family: $fontf !important;
+
+  }
+  a:hover{
+    border: 1px solid $colorsdetails ;
+    opacity: 1;
+    color: $colorsdetails !important;
+    transition-delay:100ms ;
+    transition-duration: 100ms;
+  }
+}
+@media (max-width: 992px) {
+  nav{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px){
+  nav{
+    padding:0;
+  }
+}

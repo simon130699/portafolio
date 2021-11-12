@@ -1,0 +1,16 @@
+// escribir las variables
+$colorsdetails: #cefe1a;
+$colorprimario: #040402;
+$colorvivos: #191919;
+$colortexto:#f5f5f5;
+$fontf: "Poppins", sans-serif;
+$padding1:0 15%;
+@mixin padding {
+  padding:0 5% ;
+  height:100%;
+}
+body{
+  background-color:$colorprimario !important;
+  font-family: $fontf;
+}
+

@@ -1,0 +1,44 @@
+header {
+  background-color: #8e8e8e;
+  background-image: url(https://www.wallpaperflare.com/static/641/221/156/computer-notebook-laptop-working-wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 681px;
+  width: 100%;
+  position: relative;
+
+  #imgfondo{
+    margin-right:30px;
+    margin-top: 30px;
+    height: 250px;
+    border-radius: 10%;
+    border: 1px solid black;
+  }
+  div{
+    align-items: center;
+    justify-content:center;
+
+  }
+  h1{
+    margin-top: 190px;
+    text-align: center;
+    font-family: $fontf;
+    width:100%;
+    color: black;
+  }
+}
+@media (max-width: 768px){
+  header{
+    width:100%;
+  }
+#header{
+display: flex !important;
+flex-direction: column !important;
+}
+
+#imgfondo{
+  position: relative;
+  top:150px;
+}
+}

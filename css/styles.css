@@ -1,0 +1,284 @@
+body {
+  background-color: #040402 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #8e8e8e;
+  background-image: url(https://www.wallpaperflare.com/static/641/221/156/computer-notebook-laptop-working-wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 681px;
+  width: 100%;
+  position: relative;
+}
+header #imgfondo {
+  margin-right: 30px;
+  margin-top: 30px;
+  height: 250px;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+header div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header h1 {
+  margin-top: 190px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  #header {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+
+  #imgfondo {
+    position: relative;
+    top: 150px;
+  }
+}
+nav {
+  padding: 25px 15%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #040402;
+}
+nav .nombre {
+  color: #cefe1a;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+nav span {
+  color: #f5f5f5;
+}
+nav a {
+  font-family: "Poppins", sans-serif !important;
+}
+nav a:hover {
+  border: 1px solid #cefe1a;
+  opacity: 1;
+  color: #cefe1a !important;
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+@media (max-width: 992px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    padding: 0;
+  }
+}
+#verde {
+  width: 70px;
+  height: 33px;
+  -webkit-transform: skewY(20deg);
+          transform: skewY(20deg);
+  -webkit-transform: skewY(15deg);
+          transform: skewY(15deg);
+  background-color: #cefe1a;
+  position: absolute;
+  opacity: 0.5;
+  left: 48%;
+  margin-top: -3%;
+  z-index: 2;
+}
+
+#verde:hover {
+  opacity: 0.2;
+  left: 47%;
+  width: 100px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+}
+
+@media (max-width: 1559px) {
+  #verde {
+    width: 0px;
+    height: 0px;
+  }
+}
+#about {
+  font-family: "Poppins", sans-serif;
+  padding: 0 5%;
+  height: 100%;
+}
+#about article {
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#about article h3 {
+  opacity: 0.4;
+}
+#about article p {
+  opacity: 0.4;
+}
+#about article a {
+  border: 1px solid #cefe1a;
+  background-color: #cefe1a;
+  color: #040402;
+  padding: 5px 35px;
+  margin: 20px auto;
+}
+#about article a:hover {
+  opacity: 0.5;
+  background-color: #191919;
+  color: #f5f5f5;
+}
+#about #skills {
+  padding-left: 100px;
+}
+#about #skills .bg {
+  background-color: #040402;
+}
+#about #skills h3 {
+  color: #f5f5f5;
+  opacity: 0.4;
+}
+#about #skills i {
+  color: #f5f5f5;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  opacity: 0.4;
+}
+#about #skills i:hover {
+  opacity: 1;
+}
+
+#serv #bg1 {
+  padding: 0 5%;
+  height: 100%;
+}
+#serv #bg1 div {
+  color: #f5f5f5;
+  height: 250px;
+  margin: 15px 0;
+  background-color: #191919;
+  text-align: center;
+}
+#serv #bg1 div i {
+  padding-top: 15px;
+  font-size: 45px;
+  text-align: center;
+}
+#serv #bg1 div i:hover {
+  color: #cefe1a;
+}
+#serv #bg1 p {
+  padding: 10%;
+  opacity: 0.4;
+}
+#serv #bg1 h3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+section img {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 300px;
+  height: 223px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+@media (max-width: 992px) {
+  section a img {
+    margin-left: 2%;
+    width: 90%;
+  }
+}
+section a img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  opacity: 0.7;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#cm1 #cm div {
+  color: #f5f5f5;
+  height: 170px;
+  margin: 10px 0;
+  background-color: #191919;
+  text-align: center;
+}
+#cm1 #cm div i {
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.7;
+}
+#cm1 #cm div i:hover {
+  color: #cefe1a;
+  opacity: 1;
+}
+#cm1 #cm p {
+  font-family: "Poppins", sans-serif;
+  opacity: 0.4;
+}
+
+div p {
+  color: #f5f5f5;
+  opacity: 0.4;
+}
+div p a {
+  text-decoration: none;
+  color: #f5f5f5;
+}

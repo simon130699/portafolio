@@ -1,0 +1,81 @@
+#verde{
+   width: 70px;
+  height: 33px;
+  transform: skewY(20deg);
+  transform: skewY(15deg);
+  background-color:$colorsdetails;
+  position:absolute;
+  opacity:0.5;
+  left:48%;
+  margin-top: -3%;
+  z-index: 2;
+}
+#verde:hover{
+  opacity: 0.2;
+  left:47%;
+  width:100px;
+  transform: rotate(0);
+  transition-delay:500ms ;
+  transition-duration: 700ms;
+}
+@media (max-width: 1559px){
+#verde{
+  width:0px;
+  height:0px;
+}
+}
+#about{
+  font-family: $fontf;
+  @include padding;
+  article{
+
+    color:$colortexto;
+    font-family: $fontf;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+
+    h3{
+      opacity:0.4;
+    }
+    p{
+      opacity:0.4;
+    }
+    a{
+      border: 1px solid $colorsdetails;
+      background-color: $colorsdetails;
+      color: $colorprimario;
+      padding: 5px 35px;
+      margin: 20px auto;
+
+    }
+    a:hover{
+      opacity: 0.5;
+      background-color:$colorvivos;
+      color: $colortexto;
+    }
+  }
+  #skills{
+
+    padding-left: 100px;
+  .bg{
+    background-color:$colorprimario;
+  }
+  h3{
+    color:$colortexto;
+    opacity:0.4;
+  }
+  i{
+    color: $colortexto;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top:50px;
+    margin-bottom:40px;
+    opacity: 0.4;
+  }
+  i:hover{
+    opacity:1;
+  }
+}
+}
+
